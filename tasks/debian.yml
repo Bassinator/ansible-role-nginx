@@ -1,0 +1,11 @@
+---
+
+- name: Install OS Packages
+  apt:
+    name: 'nginx'
+
+- name: Make sure nginx is started and enabled to start on boot
+  systemd:
+    name: 'nginx'
+    state: 'started'
+    enabled: 'yes'
