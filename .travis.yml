@@ -19,7 +19,7 @@ before_script:
   - cd bassinator.$ROLE_NAME
 
 script:
-  # Run tests.
+# Run tests.
   - molecule test
 
 notifications:
