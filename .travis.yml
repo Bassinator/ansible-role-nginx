@@ -4,7 +4,7 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: simplehttp
+    - ROLE_NAME: nginx 
   matrix:
     - MOLECULE_DISTRO: debian9
 
